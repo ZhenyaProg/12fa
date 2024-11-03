@@ -1,10 +1,8 @@
-﻿namespace TFA.Application.Models;
+﻿namespace TFA.API.Contracts;
 
-public class Topic
+public class TopicResponse
 {
     public Guid Id { get; set; }
-    public Guid ForumId { get; set; }
-    public Guid AuthorId { get; set; }
     public string Title { get; set; } = string.Empty;
     public DateTimeOffset CreatedDate { get; set; }
 }
