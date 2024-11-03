@@ -10,8 +10,8 @@ public class ForumDbContext : DbContext
     }
 
     public DbSet<User> Users { get; set; }
-    public DbSet<Forum> Forums { get; set; }
-    public DbSet<Topic> Topics { get; set; }
+    public DbSet<ForumEntity> Forums { get; set; }
+    public DbSet<TopicEntity> Topics { get; set; }
     public DbSet<Comment> Comments { get; set; }
 
     public async Task Test()

@@ -11,8 +11,8 @@ namespace TFA.Storage
         [MaxLength(20)]
         public string Login { get; set; } = string.Empty;
 
-        [InverseProperty(nameof(Topic.Author))]
-        public ICollection<Topic> Topics { get; set; }
+        [InverseProperty(nameof(TopicEntity.Author))]
+        public ICollection<TopicEntity> Topics { get; set; }
 
         [InverseProperty(nameof(Comment.Author))]
         public ICollection<Comment> Comments { get; set; }

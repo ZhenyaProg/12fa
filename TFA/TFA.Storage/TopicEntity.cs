@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TFA.Storage
 {
-    public class Topic
+    public class TopicEntity
     {
         [Key]
         public Guid Id { get; set; }
@@ -19,7 +19,7 @@ namespace TFA.Storage
         public User Author { get; set; }
 
         [ForeignKey(nameof(ForumId))]
-        public Forum Forum { get; set; }
+        public ForumEntity Forum { get; set; }
 
         [InverseProperty(nameof(Comment.Topic))]
         public ICollection<Comment> Comments { get; set; }

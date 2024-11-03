@@ -3,14 +3,14 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TFA.Storage
 {
-    public class Forum
+    public class ForumEntity
     {
         [Key]
         public Guid Id { get; set; }
 
         public string Title { get; set; } = string.Empty;
 
-        [InverseProperty(nameof(Topic.Forum))]
-        public ICollection<Topic> Topics { get; set; }
+        [InverseProperty(nameof(TopicEntity.Forum))]
+        public ICollection<TopicEntity> Topics { get; set; }
     }
 }

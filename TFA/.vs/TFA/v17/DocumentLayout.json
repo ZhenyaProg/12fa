@@ -3,12 +3,72 @@
   "WorkspaceRootPath": "F:\\C# Projects\\12fa\\TFA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E55AE2EF-64DD-4D10-AFB5-63DCAE6041AD}|TFA.API\\TFA.API.csproj|f:\\c# projects\\12fa\\tfa\\tfa.api\\controllers\\forumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E55AE2EF-64DD-4D10-AFB5-63DCAE6041AD}|TFA.API\\TFA.API.csproj|solutionrelative:tfa.api\\controllers\\forumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40608010-F55F-443D-9FEF-66A4FA95963D}|TFA.Domain.Tests\\TFA.Domain.Tests.csproj|f:\\c# projects\\12fa\\tfa\\tfa.domain.tests\\createtopicusecaseshould.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40608010-F55F-443D-9FEF-66A4FA95963D}|TFA.Domain.Tests\\TFA.Domain.Tests.csproj|solutionrelative:tfa.domain.tests\\createtopicusecaseshould.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E5B951-0E14-4C65-A7D7-D09F32ADA33D}|TFA.Application\\TFA.Application.csproj|f:\\c# projects\\12fa\\tfa\\tfa.application\\usecases\\createtopic\\createtopicusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E5B951-0E14-4C65-A7D7-D09F32ADA33D}|TFA.Application\\TFA.Application.csproj|solutionrelative:tfa.application\\usecases\\createtopic\\createtopicusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E5B951-0E14-4C65-A7D7-D09F32ADA33D}|TFA.Application\\TFA.Application.csproj|f:\\c# projects\\12fa\\tfa\\tfa.application\\imomentprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E5B951-0E14-4C65-A7D7-D09F32ADA33D}|TFA.Application\\TFA.Application.csproj|solutionrelative:tfa.application\\imomentprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E5B951-0E14-4C65-A7D7-D09F32ADA33D}|TFA.Application\\TFA.Application.csproj|f:\\c# projects\\12fa\\tfa\\tfa.application\\iguidfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E5B951-0E14-4C65-A7D7-D09F32ADA33D}|TFA.Application\\TFA.Application.csproj|solutionrelative:tfa.application\\iguidfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E5B951-0E14-4C65-A7D7-D09F32ADA33D}|TFA.Application\\TFA.Application.csproj|f:\\c# projects\\12fa\\tfa\\tfa.application\\usecases\\getforums\\igetforumsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E5B951-0E14-4C65-A7D7-D09F32ADA33D}|TFA.Application\\TFA.Application.csproj|solutionrelative:tfa.application\\usecases\\getforums\\igetforumsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E5B951-0E14-4C65-A7D7-D09F32ADA33D}|TFA.Application\\TFA.Application.csproj|f:\\c# projects\\12fa\\tfa\\tfa.application\\models\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E5B951-0E14-4C65-A7D7-D09F32ADA33D}|TFA.Application\\TFA.Application.csproj|solutionrelative:tfa.application\\models\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E5B951-0E14-4C65-A7D7-D09F32ADA33D}|TFA.Application\\TFA.Application.csproj|f:\\c# projects\\12fa\\tfa\\tfa.application\\models\\forum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E5B951-0E14-4C65-A7D7-D09F32ADA33D}|TFA.Application\\TFA.Application.csproj|solutionrelative:tfa.application\\models\\forum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74D9CA4-D4E6-4067-BA68-6C69837B98D7}|TFA.Storage\\TFA.Storage.csproj|f:\\c# projects\\12fa\\tfa\\tfa.storage\\topicentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B74D9CA4-D4E6-4067-BA68-6C69837B98D7}|TFA.Storage\\TFA.Storage.csproj|solutionrelative:tfa.storage\\topicentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E55AE2EF-64DD-4D10-AFB5-63DCAE6041AD}|TFA.API\\TFA.API.csproj|f:\\c# projects\\12fa\\tfa\\tfa.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E55AE2EF-64DD-4D10-AFB5-63DCAE6041AD}|TFA.API\\TFA.API.csproj|solutionrelative:tfa.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E5B951-0E14-4C65-A7D7-D09F32ADA33D}|TFA.Application\\TFA.Application.csproj|f:\\c# projects\\12fa\\tfa\\tfa.application\\usecases\\createtopic\\icreatetopicusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E5B951-0E14-4C65-A7D7-D09F32ADA33D}|TFA.Application\\TFA.Application.csproj|solutionrelative:tfa.application\\usecases\\createtopic\\icreatetopicusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E5B951-0E14-4C65-A7D7-D09F32ADA33D}|TFA.Application\\TFA.Application.csproj|f:\\c# projects\\12fa\\tfa\\tfa.application\\usecases\\getforums\\getforumsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E5B951-0E14-4C65-A7D7-D09F32ADA33D}|TFA.Application\\TFA.Application.csproj|solutionrelative:tfa.application\\usecases\\getforums\\getforumsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B74D9CA4-D4E6-4067-BA68-6C69837B98D7}|TFA.Storage\\TFA.Storage.csproj|f:\\c# projects\\12fa\\tfa\\tfa.storage\\forumentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B74D9CA4-D4E6-4067-BA68-6C69837B98D7}|TFA.Storage\\TFA.Storage.csproj|solutionrelative:tfa.storage\\forumentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E55AE2EF-64DD-4D10-AFB5-63DCAE6041AD}|TFA.API\\TFA.API.csproj|f:\\c# projects\\12fa\\tfa\\tfa.api\\contracts\\forumresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E55AE2EF-64DD-4D10-AFB5-63DCAE6041AD}|TFA.API\\TFA.API.csproj|solutionrelative:tfa.api\\contracts\\forumresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E55AE2EF-64DD-4D10-AFB5-63DCAE6041AD}|TFA.API\\TFA.API.csproj|f:\\c# projects\\12fa\\tfa\\tfa.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E55AE2EF-64DD-4D10-AFB5-63DCAE6041AD}|TFA.API\\TFA.API.csproj|solutionrelative:tfa.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E55AE2EF-64DD-4D10-AFB5-63DCAE6041AD}|TFA.API\\TFA.API.csproj|f:\\c# projects\\12fa\\tfa\\tfa.api\\controllers\\forumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E55AE2EF-64DD-4D10-AFB5-63DCAE6041AD}|TFA.API\\TFA.API.csproj|solutionrelative:tfa.api\\controllers\\forumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E55AE2EF-64DD-4D10-AFB5-63DCAE6041AD}|TFA.API\\TFA.API.csproj|f:\\c# projects\\12fa\\tfa\\tfa.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E55AE2EF-64DD-4D10-AFB5-63DCAE6041AD}|TFA.API\\TFA.API.csproj|solutionrelative:tfa.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E55AE2EF-64DD-4D10-AFB5-63DCAE6041AD}|TFA.API\\TFA.API.csproj|f:\\c# projects\\12fa\\tfa\\tfa.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E55AE2EF-64DD-4D10-AFB5-63DCAE6041AD}|TFA.API\\TFA.API.csproj|solutionrelative:tfa.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E55AE2EF-64DD-4D10-AFB5-63DCAE6041AD}|TFA.API\\TFA.API.csproj|f:\\c# projects\\12fa\\tfa\\tfa.api\\tfa.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -39,14 +99,6 @@
       "RelativeMoniker": "D:0:0:{B74D9CA4-D4E6-4067-BA68-6C69837B98D7}|TFA.Storage\\TFA.Storage.csproj|solutionrelative:tfa.storage\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B74D9CA4-D4E6-4067-BA68-6C69837B98D7}|TFA.Storage\\TFA.Storage.csproj|f:\\c# projects\\12fa\\tfa\\tfa.storage\\forum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B74D9CA4-D4E6-4067-BA68-6C69837B98D7}|TFA.Storage\\TFA.Storage.csproj|solutionrelative:tfa.storage\\forum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B74D9CA4-D4E6-4067-BA68-6C69837B98D7}|TFA.Storage\\TFA.Storage.csproj|f:\\c# projects\\12fa\\tfa\\tfa.storage\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B74D9CA4-D4E6-4067-BA68-6C69837B98D7}|TFA.Storage\\TFA.Storage.csproj|solutionrelative:tfa.storage\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B74D9CA4-D4E6-4067-BA68-6C69837B98D7}|TFA.Storage\\TFA.Storage.csproj|f:\\c# projects\\12fa\\tfa\\tfa.storage\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B74D9CA4-D4E6-4067-BA68-6C69837B98D7}|TFA.Storage\\TFA.Storage.csproj|solutionrelative:tfa.storage\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -58,8 +110,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMomentProvider.cs",
+              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Application\\IMomentProvider.cs",
+              "RelativeDocumentMoniker": "TFA.Application\\IMomentProvider.cs",
+              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.Application\\IMomentProvider.cs",
+              "RelativeToolTip": "TFA.Application\\IMomentProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T17:44:29.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IGuidFactory.cs",
+              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Application\\IGuidFactory.cs",
+              "RelativeDocumentMoniker": "TFA.Application\\IGuidFactory.cs",
+              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.Application\\IGuidFactory.cs",
+              "RelativeToolTip": "TFA.Application\\IGuidFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T17:26:55.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Topic.cs",
+              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Application\\Models\\Topic.cs",
+              "RelativeDocumentMoniker": "TFA.Application\\Models\\Topic.cs",
+              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.Application\\Models\\Topic.cs",
+              "RelativeToolTip": "TFA.Application\\Models\\Topic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T17:08:35.209Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -70,8 +161,151 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateTopicUseCaseShould.cs",
+              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Domain.Tests\\CreateTopicUseCaseShould.cs",
+              "RelativeDocumentMoniker": "TFA.Domain.Tests\\CreateTopicUseCaseShould.cs",
+              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.Domain.Tests\\CreateTopicUseCaseShould.cs",
+              "RelativeToolTip": "TFA.Domain.Tests\\CreateTopicUseCaseShould.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAUwEYAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T16:26:27.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateTopicUseCase.cs",
+              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Application\\UseCases\\CreateTopic\\CreateTopicUseCase.cs",
+              "RelativeDocumentMoniker": "TFA.Application\\UseCases\\CreateTopic\\CreateTopicUseCase.cs",
+              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.Application\\UseCases\\CreateTopic\\CreateTopicUseCase.cs",
+              "RelativeToolTip": "TFA.Application\\UseCases\\CreateTopic\\CreateTopicUseCase.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAmwCMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T16:13:36.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TopicEntity.cs",
+              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Storage\\TopicEntity.cs",
+              "RelativeDocumentMoniker": "TFA.Storage\\TopicEntity.cs",
+              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.Storage\\TopicEntity.cs",
+              "RelativeToolTip": "TFA.Storage\\TopicEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T18:42:28.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Forum.cs",
+              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Application\\Models\\Forum.cs",
+              "RelativeDocumentMoniker": "TFA.Application\\Models\\Forum.cs",
+              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.Application\\Models\\Forum.cs",
+              "RelativeToolTip": "TFA.Application\\Models\\Forum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T15:13:14.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "TFA.Storage",
+              "Title": "IGetForumsUseCase.cs",
+              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Application\\UseCases\\GetForums\\IGetForumsUseCase.cs",
+              "RelativeDocumentMoniker": "TFA.Application\\UseCases\\GetForums\\IGetForumsUseCase.cs",
+              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.Application\\UseCases\\GetForums\\IGetForumsUseCase.cs",
+              "RelativeToolTip": "TFA.Application\\UseCases\\GetForums\\IGetForumsUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T15:10:48.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICreateTopicUseCase.cs",
+              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Application\\UseCases\\CreateTopic\\ICreateTopicUseCase.cs",
+              "RelativeDocumentMoniker": "TFA.Application\\UseCases\\CreateTopic\\ICreateTopicUseCase.cs",
+              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.Application\\UseCases\\CreateTopic\\ICreateTopicUseCase.cs",
+              "RelativeToolTip": "TFA.Application\\UseCases\\CreateTopic\\ICreateTopicUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T16:10:31.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetForumsUseCase.cs",
+              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Application\\UseCases\\GetForums\\GetForumsUseCase.cs",
+              "RelativeDocumentMoniker": "TFA.Application\\UseCases\\GetForums\\GetForumsUseCase.cs",
+              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.Application\\UseCases\\GetForums\\GetForumsUseCase.cs",
+              "RelativeToolTip": "TFA.Application\\UseCases\\GetForums\\GetForumsUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T15:14:50.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ForumResponse.cs",
+              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.API\\Contracts\\ForumResponse.cs",
+              "RelativeDocumentMoniker": "TFA.API\\Contracts\\ForumResponse.cs",
+              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.API\\Contracts\\ForumResponse.cs",
+              "RelativeToolTip": "TFA.API\\Contracts\\ForumResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T15:02:31.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "TFA.API\\appsettings.Development.json",
+              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.API\\appsettings.Development.json",
+              "RelativeToolTip": "TFA.API\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-02T14:30:57.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TFA.API\\Properties\\launchSettings.json",
+              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TFA.API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-02T14:30:46.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.API\\Program.cs",
+              "RelativeDocumentMoniker": "TFA.API\\Program.cs",
+              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.API\\Program.cs",
+              "RelativeToolTip": "TFA.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T19:12:37.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TFA.Storage.csproj",
               "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Storage\\TFA.Storage.csproj",
               "RelativeDocumentMoniker": "TFA.Storage\\TFA.Storage.csproj",
               "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.Storage\\TFA.Storage.csproj",
@@ -83,20 +317,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 14,
               "Title": "ForumController.cs",
               "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.API\\Controllers\\ForumController.cs",
               "RelativeDocumentMoniker": "TFA.API\\Controllers\\ForumController.cs",
               "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.API\\Controllers\\ForumController.cs",
               "RelativeToolTip": "TFA.API\\Controllers\\ForumController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA7AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T19:13:01.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
+              "Title": "ForumEntity.cs",
+              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Storage\\ForumEntity.cs",
+              "RelativeDocumentMoniker": "TFA.Storage\\ForumEntity.cs",
+              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.Storage\\ForumEntity.cs",
+              "RelativeToolTip": "TFA.Storage\\ForumEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T18:45:51.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.API\\appsettings.json",
+              "RelativeDocumentMoniker": "TFA.API\\appsettings.json",
+              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.API\\appsettings.json",
+              "RelativeToolTip": "TFA.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-02T14:30:56.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "TFA.API.http",
               "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.API\\TFA.API.http",
               "RelativeDocumentMoniker": "TFA.API\\TFA.API.http",
@@ -109,20 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.API\\Program.cs",
-              "RelativeDocumentMoniker": "TFA.API\\Program.cs",
-              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.API\\Program.cs",
-              "RelativeToolTip": "TFA.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T19:12:37.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 20,
               "Title": "20241101195336_init.Designer.cs",
               "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Storage\\Migrations\\20241101195336_init.Designer.cs",
               "RelativeDocumentMoniker": "TFA.Storage\\Migrations\\20241101195336_init.Designer.cs",
@@ -135,20 +382,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 18,
               "Title": "20241101195336_init.cs",
               "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Storage\\Migrations\\20241101195336_init.cs",
               "RelativeDocumentMoniker": "TFA.Storage\\Migrations\\20241101195336_init.cs",
               "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.Storage\\Migrations\\20241101195336_init.cs",
               "RelativeToolTip": "TFA.Storage\\Migrations\\20241101195336_init.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBgAAAAAAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T21:48:15.802Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 21,
               "Title": "ForumDbContextModelSnapshot.cs",
               "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Storage\\Migrations\\ForumDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "TFA.Storage\\Migrations\\ForumDbContextModelSnapshot.cs",
@@ -161,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 22,
               "Title": "ForumDbContext.cs",
               "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Storage\\ForumDbContext.cs",
               "RelativeDocumentMoniker": "TFA.Storage\\ForumDbContext.cs",
@@ -174,33 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Forum.cs",
-              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Storage\\Forum.cs",
-              "RelativeDocumentMoniker": "TFA.Storage\\Forum.cs",
-              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.Storage\\Forum.cs",
-              "RelativeToolTip": "TFA.Storage\\Forum.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T18:45:51.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Topic.cs",
-              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Storage\\Topic.cs",
-              "RelativeDocumentMoniker": "TFA.Storage\\Topic.cs",
-              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.Storage\\Topic.cs",
-              "RelativeToolTip": "TFA.Storage\\Topic.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBcAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T18:42:28.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 23,
               "Title": "User.cs",
               "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Storage\\User.cs",
               "RelativeDocumentMoniker": "TFA.Storage\\User.cs",
@@ -213,13 +434,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 24,
               "Title": "Comment.cs",
               "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Storage\\Comment.cs",
               "RelativeDocumentMoniker": "TFA.Storage\\Comment.cs",
               "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.Storage\\Comment.cs",
               "RelativeToolTip": "TFA.Storage\\Comment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBUAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBUAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T18:34:34.728Z",
               "EditorCaption": ""

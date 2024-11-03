@@ -19,6 +19,6 @@ namespace TFA.Storage
         public User Author { get; set; }
 
         [ForeignKey(nameof(TopicId))]
-        public Topic Topic { get; set; }
+        public TopicEntity Topic { get; set; }
     }
 }
