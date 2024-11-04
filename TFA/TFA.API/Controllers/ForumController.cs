@@ -1,3 +1,4 @@
+using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
 using TFA.API.Contracts;
 using TFA.Application.Authorization;
@@ -14,8 +15,9 @@ namespace TFA.API.Controllers
     {
         [HttpGet(Name = nameof(GetForums))]
         [ProducesResponseType(200, Type = typeof(ForumResponse[]))]
-        public async Task<IActionResult> GetForums([FromServices] IGetForumsUseCase useCase,
-                                                   CancellationToken token)
+        public async Task<IActionResult> GetForums(
+            [FromServices] IGetForumsUseCase useCase,
+            CancellationToken token)
         {
             var forums = await useCase.Execute(token);
             return Ok(forums.Select(f => new ForumResponse
@@ -26,6 +28,7 @@ namespace TFA.API.Controllers
         }
 
         [HttpPost("{forumId:guid}/topics")]
+        [ProducesResponseType(400)]
         [ProducesResponseType(403)]
         [ProducesResponseType(410)]
         [ProducesResponseType(201, Type = typeof(TopicResponse))]
@@ -35,29 +38,15 @@ namespace TFA.API.Controllers
             [FromServices] ICreateTopicUseCase useCase,
             CancellationToken token)
         {
-            try
-            {
-                var topic = await useCase.Execute(forumId, request.Title, token);
+            var command = new CreateTopicCommand(forumId, request.Title);
+            var topic = await useCase.Execute(command, token);
 
-                return CreatedAtRoute(nameof(GetForums), new TopicResponse
-                {
-                    Id = topic.Id,
-                    Title = topic.Title,
-                    CreatedDate = topic.CreatedDate,
-                });
-            }
-            catch(IntentionManagerException ex)
+            return CreatedAtRoute(nameof(GetForums), new TopicResponse
             {
-                return Forbid();
-            }
-            catch (ForumNotFoundException ex)
-            {
-                return StatusCode(StatusCodes.Status410Gone);
-            }
-            catch
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError);
-            }
+                Id = topic.Id,
+                Title = topic.Title,
+                CreatedDate = topic.CreatedDate,
+            });
         }
     }
 }

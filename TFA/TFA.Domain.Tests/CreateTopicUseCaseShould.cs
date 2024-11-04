@@ -6,6 +6,8 @@ using TFA.Application.UseCases.CreateTopic;
 using Moq.Language.Flow;
 using TFA.Application.Authentication;
 using TFA.Application.Authorization;
+using FluentValidation;
+using FluentValidation.Results;
 
 namespace TFA.Domain.Tests
 {
@@ -33,7 +35,12 @@ namespace TFA.Domain.Tests
             _intentionManager = new Mock<IIntentionManager>();
             _intentionIsAllowedSetup = _intentionManager.Setup(m => m.IsAllowed(It.IsAny<TopicIntention>()));
 
-            _createTopic = new CreateTopicUseCase(_intentionManager.Object, _storage.Object, identityProvider.Object);
+            var validator = new Mock<IValidator<CreateTopicCommand>>();
+            validator
+                .Setup(v => v.ValidateAsync(It.IsAny<CreateTopicCommand>(), It.IsAny<CancellationToken>()))
+                .ReturnsAsync(new ValidationResult());
+
+            _createTopic = new CreateTopicUseCase(validator.Object, _intentionManager.Object, _storage.Object, identityProvider.Object);
         }
 
         [Fact]
@@ -43,7 +50,7 @@ namespace TFA.Domain.Tests
 
             _intentionIsAllowedSetup.Returns(false);
 
-            await _createTopic.Invoking(s => s.Execute(forumId, "Whatever", CancellationToken.None))
+            await _createTopic.Invoking(s => s.Execute(new CreateTopicCommand(forumId, "Whatever"), CancellationToken.None))
                 .Should().ThrowAsync<IntentionManagerException>();
             _intentionManager.Verify(m => m.IsAllowed(TopicIntention.Create));
         }
@@ -57,7 +64,7 @@ namespace TFA.Domain.Tests
             _forumExistsSetup.ReturnsAsync(false);
 
             await _createTopic
-                    .Invoking(s => s.Execute(forumId, "Forum Title", CancellationToken.None))
+                    .Invoking(s => s.Execute(new CreateTopicCommand(forumId, "Forum Title"), CancellationToken.None))
                     .Should().ThrowAsync<ForumNotFoundException>();
 
             _storage.Verify(f => f.ForumExist(forumId, It.IsAny<CancellationToken>()));
@@ -76,7 +83,7 @@ namespace TFA.Domain.Tests
             Topic expected = new Topic();
             _createTopicSetup.ReturnsAsync(expected);
 
-            Topic actual = await _createTopic.Execute(forumId, "Forum 1", CancellationToken.None);
+            Topic actual = await _createTopic.Execute(new CreateTopicCommand(forumId, "Forum 1"), CancellationToken.None);
             actual.Should().Be(expected);
 
             _storage.Verify(s => s.CreateTopic(forumId, userId, "Forum 1", It.IsAny<CancellationToken>()), Times.Once);
