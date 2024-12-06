@@ -2,7 +2,7 @@
 
 namespace TFA.Application.UseCases.CreateTopic;
 
-public class CreateTopicCommandValidator : AbstractValidator<CreateTopicCommand>
+internal class CreateTopicCommandValidator : AbstractValidator<CreateTopicCommand>
 {
     public CreateTopicCommandValidator()
     {

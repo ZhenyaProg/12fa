@@ -17,6 +17,7 @@ public class ErrorHandlingMiddleware
 
     public async Task InvokeAsync(
         HttpContext httpContext,
+        ILogger<ErrorHandlingMiddleware> logger,
         ProblemDetailsFactory problemDetailsFactory)
     {
         try
@@ -25,19 +26,32 @@ public class ErrorHandlingMiddleware
         }
         catch (Exception ex)
         {
-            var problemDetails = ex switch
+            logger.LogError(ex,
+                            "Error has happened with {RequestPath}, the message is {ErrorMessage}",
+                            httpContext.Request.Path, ex.Message);
+
+            ProblemDetails problemDetails;
+            switch (ex)
             {
-                IntentionManagerException intentionManagerException =>  problemDetailsFactory.CreateFrom(httpContext, intentionManagerException),
-                ValidationException validationException => problemDetailsFactory.CreateFrom(httpContext, validationException),
-                DomainException domainException => problemDetailsFactory.CreateFrom(httpContext, domainException),
-                _ => problemDetailsFactory.CreateProblemDetails(httpContext, StatusCodes.Status500InternalServerError, "Unhandled error!", detail: ex.Message)
-            };
+                case IntentionManagerException intentionManagerException:
+                    problemDetails = problemDetailsFactory.CreateFrom(httpContext, intentionManagerException);
+                    break;
+                case ValidationException validationException:
+                    problemDetails = problemDetailsFactory.CreateFrom(httpContext, validationException);
+                    logger.LogInformation(validationException, "Somebody sent invalid request");
+                    break;
+                case DomainException domainException:
+                    problemDetails = problemDetailsFactory.CreateFrom(httpContext, domainException);
+                    logger.LogError(domainException, "Domain exception occured");
+                    break;
+                default:
+                    problemDetails = problemDetailsFactory.CreateProblemDetails(httpContext, StatusCodes.Status500InternalServerError, "Unhandled error!", detail: ex.Message);
+                    logger.LogError(ex, "Unhandled exception occured");
+                    break;
+            }
 
             httpContext.Response.StatusCode = problemDetails.Status ?? StatusCodes.Status500InternalServerError;
-            if (problemDetails is ValidationProblemDetails validationProblemDetails)
-                await httpContext.Response.WriteAsJsonAsync(validationProblemDetails);
-            else
-                await httpContext.Response.WriteAsJsonAsync(problemDetails);
+            await httpContext.Response.WriteAsJsonAsync(problemDetails, problemDetails.GetType());
         }
     }
 }

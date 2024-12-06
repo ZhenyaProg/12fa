@@ -4,7 +4,7 @@ using TFA.Application.UseCases.GetForums;
 
 namespace TFA.Storage.UseCases;
 
-public class GetForumsStorage : IGetForumsStorage
+internal class GetForumsStorage : IGetForumsStorage
 {
     private readonly ForumDbContext _forumDbContext;
 
