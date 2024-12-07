@@ -1,6 +1,6 @@
 ﻿namespace TFA.Application.Exceptions;
 
-public enum ErrorCodes
+public enum DomainErrorCodes
 {
     Gone = 410,
 }

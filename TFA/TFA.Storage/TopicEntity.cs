@@ -10,6 +10,7 @@ namespace TFA.Storage
 
         public DateTimeOffset CreatedDate { get; set; }
         public DateTimeOffset? UpdatedDate { get; set; }
+        [MaxLength(100)]
         public string Title { get; set; } = string.Empty;
 
         public Guid ForumId { get; set; }

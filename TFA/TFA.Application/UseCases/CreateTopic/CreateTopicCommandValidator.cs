@@ -1,4 +1,5 @@
 ﻿using FluentValidation;
+using TFA.Application.Exceptions;
 
 namespace TFA.Application.UseCases.CreateTopic;
 
@@ -8,12 +9,12 @@ internal class CreateTopicCommandValidator : AbstractValidator<CreateTopicComman
     {
         RuleFor(c => c.ForumId)
             .NotEmpty()
-            .WithErrorCode("Empty");
+            .WithErrorCode(ValidationErrorCodes.Empty);
 
         RuleFor(c => c.Title)
             .NotEmpty()
-            .WithErrorCode("Empty")
+            .WithErrorCode(ValidationErrorCodes.Empty)
             .MaximumLength(100)
-            .WithErrorCode("Toolong");
+            .WithErrorCode(ValidationErrorCodes.Toolong);
     }
 }

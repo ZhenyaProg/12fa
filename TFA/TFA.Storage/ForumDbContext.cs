@@ -13,16 +13,4 @@ public class ForumDbContext : DbContext
     public DbSet<ForumEntity> Forums { get; set; }
     public DbSet<TopicEntity> Topics { get; set; }
     public DbSet<Comment> Comments { get; set; }
-
-    public async Task Test()
-    {
-        var commentsWithNames = await Comments.Join(Users, c => c.Id, u => u.Id, (comment, user) => new
-        {
-            user.Login,
-            comment.Id,
-            comment.Text
-        }).ToArrayAsync();
-
-
-    }
 }

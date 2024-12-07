@@ -5,6 +5,7 @@ using TFA.Application.Authorization;
 using TFA.Application.Models;
 using TFA.Application.UseCases.CreateTopic;
 using TFA.Application.UseCases.GetForums;
+using TFA.Application.UseCases.GetTopics;
 
 namespace TFA.Application.DI
 {
@@ -14,10 +15,12 @@ namespace TFA.Application.DI
         {
             return services.AddScoped<IGetForumsUseCase, GetForumsUseCase>()
                            .AddScoped<ICreateTopicUseCase, CreateTopicUseCase>()
+                           .AddScoped<IGetTopicsUseCase, GetTopicsUseCase>()
                            .AddScoped<IIntentionResolver, TopicIntentionResolver>()
                            .AddScoped<IIntentionManager, IntentionManager>()
                            .AddScoped<IIdentityProvider, IdentityProvider>()
-                           .AddValidatorsFromAssemblyContaining<Forum>(includeInternalTypes: true);
+                           .AddValidatorsFromAssemblyContaining<Forum>(includeInternalTypes: true)
+                           .AddMemoryCache();
         }
     }
 }

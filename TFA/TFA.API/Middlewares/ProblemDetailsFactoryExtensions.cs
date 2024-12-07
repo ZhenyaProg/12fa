@@ -30,7 +30,7 @@ public static class ProblemDetailsFactoryExtensions
             httpContext,
             exception.ErrorCode switch
             {
-                ErrorCodes.Gone => StatusCodes.Status410Gone,
+                DomainErrorCodes.Gone => StatusCodes.Status410Gone,
                 _ => StatusCodes.Status500InternalServerError
             },
             exception.Message);
