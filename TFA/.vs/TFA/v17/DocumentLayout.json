@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "F:\\C# Projects\\12fa\\TFA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E55AE2EF-64DD-4D10-AFB5-63DCAE6041AD}|TFA.API\\TFA.API.csproj|f:\\c# projects\\12fa\\tfa\\tfa.api\\controllers\\forumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E55AE2EF-64DD-4D10-AFB5-63DCAE6041AD}|TFA.API\\TFA.API.csproj|solutionrelative:tfa.api\\controllers\\forumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ABE84488-2948-4987-B64B-5B37652B9D55}|TFA.Storage.DI\\TFA.Storage.DI.csproj|f:\\c# projects\\12fa\\tfa\\tfa.storage.di\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABE84488-2948-4987-B64B-5B37652B9D55}|TFA.Storage.DI\\TFA.Storage.DI.csproj|solutionrelative:tfa.storage.di\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E55AE2EF-64DD-4D10-AFB5-63DCAE6041AD}|TFA.API\\TFA.API.csproj|f:\\c# projects\\12fa\\tfa\\tfa.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E55AE2EF-64DD-4D10-AFB5-63DCAE6041AD}|TFA.API\\TFA.API.csproj|solutionrelative:tfa.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40608010-F55F-443D-9FEF-66A4FA95963D}|TFA.Domain.Tests\\TFA.Application.Tests.csproj|f:\\c# projects\\12fa\\tfa\\tfa.domain.tests\\gettopics\\gettopicsusecaseshould.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40608010-F55F-443D-9FEF-66A4FA95963D}|TFA.Domain.Tests\\TFA.Application.Tests.csproj|solutionrelative:tfa.domain.tests\\gettopics\\gettopicsusecaseshould.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81E5B951-0E14-4C65-A7D7-D09F32ADA33D}|TFA.Application\\TFA.Application.csproj|f:\\c# projects\\12fa\\tfa\\tfa.application\\usecases\\getforums\\getforumsstorageextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81E5B951-0E14-4C65-A7D7-D09F32ADA33D}|TFA.Application\\TFA.Application.csproj|solutionrelative:tfa.application\\usecases\\getforums\\getforumsstorageextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81E5B951-0E14-4C65-A7D7-D09F32ADA33D}|TFA.Application\\TFA.Application.csproj|f:\\c# projects\\12fa\\tfa\\tfa.application\\usecases\\gettopics\\gettopicsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81E5B951-0E14-4C65-A7D7-D09F32ADA33D}|TFA.Application\\TFA.Application.csproj|solutionrelative:tfa.application\\usecases\\gettopics\\gettopicsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B74D9CA4-D4E6-4067-BA68-6C69837B98D7}|TFA.Storage\\TFA.Storage.csproj|f:\\c# projects\\12fa\\tfa\\tfa.storage\\usecases\\gettopicsstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B74D9CA4-D4E6-4067-BA68-6C69837B98D7}|TFA.Storage\\TFA.Storage.csproj|solutionrelative:tfa.storage\\usecases\\gettopicsstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B74D9CA4-D4E6-4067-BA68-6C69837B98D7}|TFA.Storage\\TFA.Storage.csproj|f:\\c# projects\\12fa\\tfa\\tfa.storage\\topicentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B74D9CA4-D4E6-4067-BA68-6C69837B98D7}|TFA.Storage\\TFA.Storage.csproj|solutionrelative:tfa.storage\\topicentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,34 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.API\\Program.cs",
-              "RelativeDocumentMoniker": "TFA.API\\Program.cs",
-              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.API\\Program.cs",
-              "RelativeToolTip": "TFA.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T18:44:19.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetForumsStorageExtensions.cs",
-              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Application\\UseCases\\GetForums\\GetForumsStorageExtensions.cs",
-              "RelativeDocumentMoniker": "TFA.Application\\UseCases\\GetForums\\GetForumsStorageExtensions.cs",
-              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.Application\\UseCases\\GetForums\\GetForumsStorageExtensions.cs",
-              "RelativeToolTip": "TFA.Application\\UseCases\\GetForums\\GetForumsStorageExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T18:43:03.707Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -76,67 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetTopicsUseCaseShould.cs",
-              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Domain.Tests\\GetTopics\\GetTopicsUseCaseShould.cs",
-              "RelativeDocumentMoniker": "TFA.Domain.Tests\\GetTopics\\GetTopicsUseCaseShould.cs",
-              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.Domain.Tests\\GetTopics\\GetTopicsUseCaseShould.cs",
-              "RelativeToolTip": "TFA.Domain.Tests\\GetTopics\\GetTopicsUseCaseShould.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAA1wCcAAABkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T18:34:22.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetTopicsUseCase.cs",
-              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Application\\UseCases\\GetTopics\\GetTopicsUseCase.cs",
-              "RelativeDocumentMoniker": "TFA.Application\\UseCases\\GetTopics\\GetTopicsUseCase.cs",
-              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.Application\\UseCases\\GetTopics\\GetTopicsUseCase.cs",
-              "RelativeToolTip": "TFA.Application\\UseCases\\GetTopics\\GetTopicsUseCase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T18:33:56.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GetTopicsStorage.cs",
-              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Storage\\UseCases\\GetTopicsStorage.cs",
-              "RelativeDocumentMoniker": "TFA.Storage\\UseCases\\GetTopicsStorage.cs",
-              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.Storage\\UseCases\\GetTopicsStorage.cs",
-              "RelativeToolTip": "TFA.Storage\\UseCases\\GetTopicsStorage.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T18:31:47.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ForumController.cs",
-              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.API\\Controllers\\ForumController.cs",
-              "RelativeDocumentMoniker": "TFA.API\\Controllers\\ForumController.cs",
-              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.API\\Controllers\\ForumController.cs",
-              "RelativeToolTip": "TFA.API\\Controllers\\ForumController.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAowDQAAAAhAAAA",
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Storage.DI\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "TFA.Storage.DI\\ServiceCollectionExtensions.cs",
+              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.Storage.DI\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "TFA.Storage.DI\\ServiceCollectionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T18:30:37.397Z",
+              "WhenOpened": "2024-12-09T17:36:19.306Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TopicEntity.cs",
-              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.Storage\\TopicEntity.cs",
-              "RelativeDocumentMoniker": "TFA.Storage\\TopicEntity.cs",
-              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.Storage\\TopicEntity.cs",
-              "RelativeToolTip": "TFA.Storage\\TopicEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAjAAAA",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\C# Projects\\12fa\\TFA\\TFA.API\\Program.cs",
+              "RelativeDocumentMoniker": "TFA.API\\Program.cs",
+              "ToolTip": "F:\\C# Projects\\12fa\\TFA\\TFA.API\\Program.cs",
+              "RelativeToolTip": "TFA.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T18:20:19.005Z",
+              "WhenOpened": "2024-12-08T17:11:38.424Z",
               "EditorCaption": ""
             }
           ]

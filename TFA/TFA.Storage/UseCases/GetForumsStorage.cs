@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AutoMapper;
+using AutoMapper.QueryableExtensions;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
 using TFA.Application.Models;
 using TFA.Application.UseCases.GetForums;
@@ -9,29 +11,29 @@ internal class GetForumsStorage : IGetForumsStorage
 {
     private readonly IMemoryCache _memoryCache;
     private readonly ForumDbContext _forumDbContext;
+    private readonly IMapper _mapper;
 
     public GetForumsStorage(
         IMemoryCache memoryCache,
-        ForumDbContext forumDbContext)
+        ForumDbContext forumDbContext,
+        IMapper mapper)
     {
         _memoryCache = memoryCache;
         _forumDbContext = forumDbContext;
+        _mapper = mapper;
     }
 
     public async Task<IEnumerable<Forum>> GetForums(CancellationToken cancellationToken)
     {
-        return await _memoryCache.GetOrCreateAsync<Forum[]>(
-            nameof(GetForums),
-            entry =>
-            {
-                entry.AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(10);
-                return _forumDbContext.Forums
-                .Select(f => new Forum
-                {
-                    Id = f.Id,
-                    Title = f.Title,
-                })
-                .ToArrayAsync(cancellationToken);
-            });
+        Forum[]? forums = await _memoryCache.GetOrCreateAsync<Forum[]>(
+                            nameof(GetForums),
+                            entry =>
+                            {
+                                entry.AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(10);
+                                return _forumDbContext.Forums
+                                .ProjectTo<Forum>(_mapper.ConfigurationProvider)
+                                .ToArrayAsync(cancellationToken);
+                            });
+        return forums;
     }
 }

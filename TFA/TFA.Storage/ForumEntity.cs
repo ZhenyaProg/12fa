@@ -7,7 +7,7 @@ namespace TFA.Storage
     {
         [Key]
         public Guid Id { get; set; }
-
+        [MaxLength(50)]
         public string Title { get; set; } = string.Empty;
 
         [InverseProperty(nameof(TopicEntity.Forum))]

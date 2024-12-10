@@ -16,6 +16,7 @@ public class GetTopicsUseCaseShould
     private readonly ISetup<IGetTopicsStorage, Task<(IEnumerable<Topic> resources, int totalCount)>> _getTopicsSetup;
     private readonly ISetup<IGetForumsStorage, Task<IEnumerable<Forum>>> _getForumsSetup;
     private readonly GetTopicsUseCase _sut;
+
     public GetTopicsUseCaseShould()
     {
         var validator = new Mock<IValidator<GetTopicsQuery>>();
